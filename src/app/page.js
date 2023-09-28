@@ -10,7 +10,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import PermPhoneMsgIcon from '@mui/icons-material/PermPhoneMsg';
 import EmailIcon from '@mui/icons-material/Email';
 
-const page = () => {
+const Page = () => {
   const phone = '+254798040353';
   const email = 'info@ecogrowgardens.co.ke';
 
@@ -191,4 +191,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
