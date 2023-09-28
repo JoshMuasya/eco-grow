@@ -97,7 +97,7 @@ const Page = () => {
       </div>
 
       {/* Bottom */}
-      <div className='absolute z-10 w-full flex flex-col m:flex-row justify-between align-middle items-center px-20 pt-24'>
+      <div className='absolute z-10 w-full flex flex-col m:flex-row justify-between align-middle items-center px-20 pt-48'>
         {/* Left */}
         <div className='text-dark'>
           {/* Top */}
@@ -106,12 +106,12 @@ const Page = () => {
           </div>
 
           {/* middle */}
-          <div className='text-ml font-black-san font-black'>
+          <div className='text-ml font-black-san font-black pb-3'>
             COMING SOON
           </div>
 
           {/* countdown */}
-          <div className='flex flex-row justify-center align-middle items-center'>
+          <div className='flex flex-row justify-center align-middle items-center pb-5 m:pb-0'>
             {/* Days */}
             <div className='bg-dark-blue text-back-green font-black-san font-bold text-l rounded-xl mx-2'>
               <h1 className='px-4 py-3'>
