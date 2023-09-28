@@ -56,7 +56,7 @@ const Page = () => {
   }, []);
 
   return (
-    <div className='h-screen bg-pic bg-fixed bg-cover flex flex-col justify-center align-middle items-center'>
+    <div className='h-screen pic-back bg-fixed bg-cover flex flex-col justify-center align-middle items-center'>
       {/* overlay */}
       <div className='absolute top-0 left-0 bottom-0 right-0 h-screen bg-back-green opacity-50 z-[2]'/>
 
