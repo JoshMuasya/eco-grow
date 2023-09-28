@@ -12,7 +12,7 @@ import EmailIcon from '@mui/icons-material/Email';
 
 const page = () => {
   const phone = '+254798040353';
-  const email = 'digimaticmarketers@gmail.com';
+  const email = 'info@ecogrowgardens.co.ke';
 
   const handleNumberClick = () => {
     window.location.href = `whatsapp://send?phone=${phone}`
