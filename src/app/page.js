@@ -11,12 +11,7 @@ import PermPhoneMsgIcon from '@mui/icons-material/PermPhoneMsg';
 import EmailIcon from '@mui/icons-material/Email';
 
 const Page = () => {
-  const phone = '+254798040353';
   const email = 'info@ecogrowgardens.co.ke';
-
-  const handleNumberClick = () => {
-    window.location.href = `whatsapp://send?phone=${phone}`
-  }
 
   const handleMailClick = () => {
     window.location.href = `mailto:${email}`;
@@ -159,12 +154,11 @@ const Page = () => {
             </div>
 
             {/* Number */}
-            <a 
-              className='font-signika text-lm pl-5 font-semibold cursor-pointer'
-              onClick={handleNumberClick}
+            <div 
+              className='font-signika text-lm pl-5 font-semibold'
             >
-              {phone}
-            </a>
+              +254 20 521 0324
+            </div>
           </div>
 
           {/* email */}
